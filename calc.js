@@ -1,0 +1,30 @@
+alert("Calculadora super útil e versátil \n 1.Soma \n 2.Subtração \n 3.multiplicação \n 4.divisão \n 5.potenciação \n 6.Raiz Quadrada")
+let conta = prompt('Qual conta oce quer bro:')
+
+if (conta == 1) {
+    var numero1 = Number(prompt("Qual o primeiro numero:"))
+    var numero2 = Number(prompt("Qual o segundo numero:"))
+    alert(numero1 + numero2)
+} else if (conta == 2) {
+    var numero1 = Number(prompt("Qual o primeiro numero:"))
+    var numero2 = Number(prompt("Qual o segundo numero:"))
+    alert(numero1 - numero2)
+} else if (conta == 3) {
+    var numero1 = Number(prompt("Qual o primeiro numero:"))
+    var numero2 = Number(prompt("Qual o segundo numero:"))
+    alert(numero1 * numero2)
+} else if (conta == 4) {
+    var numero1 = Number(prompt("Qual o primeiro numero:"))
+    var numero2 = Number(prompt("Qual o segundo numero:"))
+    alert(numero1 / numero2)
+} else if (conta == 5) {
+    var numero1 = Number(prompt("Qual o primeiro numero:"))
+    var numero2 = Number(prompt("Qual o segundo numero:"))
+    alert(numero1 ** numero2)
+} else if (conta == 6){
+    var numeroSqrt = Number(prompt("Qual númeor você deseja adquirir a raiz quadrada de:"))
+    var resposta = Math.sqrt(numeroSqrt)
+    alert(resposta.toFixed(3))
+} else {
+    alert("Caracter inválido, verifique se os número colocados são equivalentes a alguma conta e verifique se não há nenhuma letra ou caracter especial em nenhum input")
+}
