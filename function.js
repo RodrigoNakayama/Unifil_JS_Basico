@@ -1,12 +1,3 @@
-// let numero1 = 2
-// let numero2 = 4
-
-// function somar(numero1,  numero2 ) {
-//     return numero1 + numero2
-// }
-
-// let resultado = somar(numero1,numer22)
-
 // let numero = 5
 // tabuada(numero)
 
