@@ -28,5 +28,3 @@ if (conta == 1) {
 } else {
     alert("Caracter inválido, verifique se os número colocados são equivalentes a alguma conta e verifique se não há nenhuma letra ou caracter especial em nenhum input")
 }
-
-alert("Calculadora super útil e versátil \n1. Soma \n2. Subtração \n3. Multiplicação \n4. Divisão \n5. Potenciação \n6. Raiz Quadrada");

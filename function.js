@@ -31,5 +31,9 @@ function classImc(imc) {
     }
 }
 
-calcIMC(peso, altura)
-classImc(imc)
+function fraseImc(peso, altura, imc) {
+    alert(`Você tem ${altura}m de altura, pesa ${peso}kg. Com isso seu imc é ${imc}`)
+    classImc(imc)
+}
+
+fraseImc(peso, altura, imc)
