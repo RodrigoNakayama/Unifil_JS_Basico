@@ -37,3 +37,5 @@ function fraseImc(peso, altura, imc) {
 }
 
 fraseImc(peso, altura, imc)
+
+// const arrowFunction = (parametroLegal) => algo * outraCoisa("👍")
