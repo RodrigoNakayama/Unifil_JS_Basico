@@ -17,17 +17,17 @@ function calcIMC(peso, altura) {
 
 function classImc(imc) {
     if (imc < 18.5) {
-        alert("Abaixo do peso")
+        alert("Abaixo do peso: " + imc)
     } else if (imc < 24.9) {
-        alert("Peso regular")
+        alert("Peso regular: " + imc)
     } else if (imc < 29.9) {
-        alert("Excesso de peso")
+        alert("Excesso de peso: " + imc)
     } else if (imc < 34.9) {
-        alert("Obesidade Classe I")
+        alert("Obesidade Classe I: " + imc)
     } else if (imc < 39.9) {
-        alert("Obesidade Classe II")
+        alert("Obesidade Classe II: " + imc)
     } else if (imc >= 40){
-        alert("Obesidade Classe III")
+        alert("Obesidade Classe III: " + imc)
     }
 }
 
